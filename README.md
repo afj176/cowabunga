@@ -6,4 +6,4 @@ El Bartman's atom.io theme!
 
 Rich royal purple background with bright foreground colors.
 
-![Atomic Bartman](http://f.cl.ly/items/0C0H0z342o3s3S3E1t2o/cowabunga-screenshot.png)
+![Cowabunga Screenshot](http://f.cl.ly/items/0C0H0z342o3s3S3E1t2o/cowabunga-screenshot.png)
