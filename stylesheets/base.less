@@ -1,0 +1,133 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(166, 166, 166, 0.07);
+}
+
+.comment {
+  color: #208974;
+}
+
+.string {
+  color: #FFA3AC;
+}
+
+.constant.numeric {
+  color: #B241FF;
+}
+
+.constant.language {
+  color: #FF4B54;
+}
+
+.constant.character, .constant.other {
+  color: #29FF1B;
+}
+
+.variable.language, .variable.other {
+  color: #FFB444;
+}
+
+.keyword {
+  color: #0CD8FF;
+}
+
+.storage {
+  color: #F9F100;
+}
+
+.entity.name.class {
+  color: #CD005D;
+}
+
+.entity.other.inherited-class {
+  color: #A1D0FF;
+}
+
+.entity.name.function {
+  color: #DA417E;
+}
+
+.variable.parameter {
+  color: #FFF300;
+}
+
+.entity.name.tag {
+  color: #CEDC76;
+}
+
+.entity.other.attribute-name {
+  color: #14DC00;
+}
+
+.support.function {
+  color: #19A0DC;
+}
+
+.support.constant {
+  color: #77AEDC;
+}
+
+.support.type, .support.class {
+  color: #32FB7B;
+}
+
+.support.other.variable {
+  color: #FF7174;
+}
+
+.invalid {
+  color: #DC0D00;
+}
+
+.constant.character.escaped, .constant.character.escape, .string .source, .string .source.ruby {
+  color: #DB2244;
+}

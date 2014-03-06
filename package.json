@@ -1,0 +1,11 @@
+{
+  "name": "cowabunga",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "El Bartman's theme, Rich royal purple background with bright foreground colors",
+  "repository": "https://github.com/atom/cowabunga",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
